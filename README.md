@@ -29,6 +29,10 @@ Create an `img` folder in the static folder of your site -- **not** the theme's 
 
 Since this theme uses modals instead of separate content pages, it is best to simply edit the `index.html` file to edit your site. Copy the `index.html` file to your `layouts` folder before editing. Follow the example pages in the `index.html` file and adjust as needed.
 
+### Contact Form
+
+You will need to use an external service for the contact form since static sites cannot handle forms on their own. One such service is [Formspree](https://formspree.io/). Formspree has a free tier.
+
 ## License
 
 This theme is released under the CC BY 3.0 license. For more information, read the [License](https://github.com/sethmacleod/dimension/blob/master/LICENSE.md).
