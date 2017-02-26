@@ -1,19 +1,4 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>{{ .Title }}</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
-	</head>
-	<body>
+{{ partial "header.html" }}
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -31,18 +16,19 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!-- <li><a href="#elements">Elements</a></li> -->
+								{{ range sort .Site.Menus.main }}
+								<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ end }}
 							</ul>
 						</nav>
 					</header>
 
 				<!-- Main -->
 					<div id="main">
-
+						{{ range .Data.Pages }}
+							{{ .Render "onepagestyle"}}
+						{{ end }}
+						
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
