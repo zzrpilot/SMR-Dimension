@@ -3,7 +3,7 @@ title = "Formspree"
 id = "formspree"
 +++
 
-<form id="contactform" method="post" action="https://formspree.io/rac2030@gmail.com">
+<form id="contactform" method="post" action="https://formspree.io/insert.your@mail.adress">
 	<div class="field half first">
 		<input type="text" name="name" id="name" placeholder="Name"/>
 	</div>
