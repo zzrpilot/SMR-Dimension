@@ -1,5 +1,4 @@
 +++
-title = ""
-weight = 
 draft = false
+weight = 0
 +++
