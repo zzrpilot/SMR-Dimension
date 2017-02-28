@@ -1,6 +1,7 @@
 +++
 title = "Elements"
-id = "elements"
+weight = 50
+draft = true
 +++
 
 <h3 class="major">Hugo shortcodes in theme</h3>

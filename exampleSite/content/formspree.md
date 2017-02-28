@@ -1,6 +1,7 @@
 +++
 title = "Formspree"
-id = "formspree"
+weight = 60
+draft = true
 +++
 
 <form id="contactform" method="post" action="https://formspree.io/insert.your@mail.adress">

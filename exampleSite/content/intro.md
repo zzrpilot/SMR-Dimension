@@ -1,6 +1,7 @@
 +++
 title = "Intro"
-id = "intro"
+weight = 10
+draft = false
 +++
 
 {{< figure class="image main" src="/img/pic01.jpg" >}}

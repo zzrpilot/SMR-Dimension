@@ -16,8 +16,8 @@
 						</div>
 						<nav>
 							<ul>
-								{{ range sort .Site.Menus.main }}
-								<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ range .Data.Pages }}
+								<li><a href="#{{ .File.BaseFileName }}">{{ .Title }}</a></li>
 								{{ end }}
 							</ul>
 						</nav>
