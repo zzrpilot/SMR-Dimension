@@ -1,0 +1,8 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{ $baseURL := .Site.BaseURL }}
+  {{ range sort .Site.Menus.main }}
+  <url>
+    <loc>{{ $baseURL }}{{ .URL }}</loc>
+  </url>
+  {{ end }}
+</urlset>
