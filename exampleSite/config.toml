@@ -29,3 +29,28 @@ theme = "dimension"
   medium = "github"
   icon = "github"
   link = "#"
+
+[[menu.main]]
+  name = "Intro"
+  weight = 10
+  url = "#intro"
+[[menu.main]]
+  name = "Work"
+  weight = 20
+  url = "#work"
+[[menu.main]]
+  name = "About"
+  weight = 30
+  url = "#about"
+[[menu.main]]
+  name = "Contact"
+  weight = 40
+  url = "#contact"
+[[menu.main]]
+  name = "Elements"
+  weight = 50
+  url = "#elements"
+[[menu.main]]
+  name = "Formspree"
+  weight = 60
+  url = "#formspree"
