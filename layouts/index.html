@@ -16,7 +16,7 @@
 						</div>
 						<nav>
 							<ul>
-								{{ range .Data.Pages }}
+								{{ range .Data.Pages.ByWeight }}
 								<li><a href="#{{ .File.BaseFileName }}">{{ .Title }}</a></li>
 								{{ end }}
 							</ul>
