@@ -43,6 +43,9 @@ To create a new page, run the following command inside your Hugo sites:
 
 Change `your-page` to what you want to name the file. There are three variables that you can change: `title`, `weight`, and `draft`. Weight is set to 0 by default, so be sure to change it.
 
+As default, the title of the page will be taken as menu item. In case you have longer page titles, the menu may get distorted and you can set an additional parameter in the pages front matter to have a shorter menu name.
+Just set `menuname = "<Your Short Name>"` in that page and it will use this optional parameter. 
+
 You can also copy the pages from the exampleSite folder and modify those pages.
 
 ### Contact Form
