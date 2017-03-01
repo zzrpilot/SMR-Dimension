@@ -23,15 +23,21 @@ You can change the logo as well with font-awesome icons. The default is set to `
 
 ### Changing pictures
 
-Create an `img` folder in the static folder of your site -- **not** the theme's static folder. Add pictures to `/static/img` as needed. The background image should be named `bg.jpg`. The default names for the other images are `pic01.jpg`, `pic02.jpg`, and `pic03.jpg`, but you may use your own naming scheme when you edit `index.html`.
+Create an `img` folder in the static folder of your site -- **not** the theme's static folder. Add pictures to `/static/img` as needed. If you want to change the background image, the replacement image should be named `bg.jpg`.
 
 ### Writing your pages
 
-Since this theme uses modals instead of separate content pages, it is best to simply edit the `index.html` file to edit your site. Copy the `index.html` file to your `layouts` folder before editing. Follow the example pages in the `index.html` file and adjust as needed.
+To create a new page, run the following command inside your Hugo sites:
+
+    $ hugo new your-page.md
+
+Change `your-page` to what you want to name the file. There are three variables that you can change: `title`, `weight`, and `draft`. Weight is set to 0 by default, so be sure to change it.
+
+You can also copy the pages from the exampleSite folder and modify those pages.
 
 ### Contact Form
 
-You will need to use an external service for the contact form since static sites cannot handle forms on their own. One such service is [Formspree](https://formspree.io/). Formspree has a free tier.
+You will need to use an external service for the contact form since static sites cannot handle forms on their own. One such service is [Formspree](https://formspree.io/). Formspree has a free tier. Check out the `formspree.md` page in the exampleSite folder for a template.
 
 ## License
 
