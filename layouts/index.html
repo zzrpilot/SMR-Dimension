@@ -17,7 +17,7 @@
 						<nav>
 							<ul>
 								{{ range .Data.Pages.ByWeight }}
-								<li><a href="#{{ .File.BaseFileName }}">{{ .Title }}</a></li>
+								<li><a href="#{{ .File.BaseFileName }}">{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
 								{{ end }}
 							</ul>
 						</nav>
