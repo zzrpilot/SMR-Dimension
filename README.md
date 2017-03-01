@@ -11,6 +11,16 @@ Run the following commands inside your Hugo site folder:
     $ cd themes
     $ git clone https://github.com/sethmacleod/dimension.git
 
+Alternatively use git submodules in order to have a way to easily update the theme from the source in case you have your site in git as well.
+For this run the following commands inside your Hugo site folder:
+
+    $ git submodule add https://github.com/sethmacleod/dimension.git
+
+If you checkout your site from a repository which has this added as a submodule (e.g. if you are using CI to deploy), execute following commands or put them into a initgit.sh file in your repository which can be executed by your CI:
+
+    $ git submodule init
+    $ git submodule update
+
 ## Getting Started
 
 After installation, you will need to configure the config.toml file, change pictures, and write your pages.
