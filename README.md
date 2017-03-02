@@ -11,6 +11,20 @@ Run the following commands inside your Hugo site folder:
     $ cd themes
     $ git clone https://github.com/sethmacleod/dimension.git
 
+Alternatively use git submodules in order to have a way to easily update the theme from the source in case you have your site in git as well.
+For this run the following commands inside your Hugo site folder:
+
+    $ git submodule add https://github.com/sethmacleod/dimension.git
+
+If you checkout your site from a repository which has this added as a submodule (e.g. if you are using CI to deploy), execute following commands or put them into a initgit.sh file in your repository which can be executed by your CI:
+
+    $ git submodule init
+    $ git submodule update
+
+In order to update all the existing submodules from their upstreams, you can either go into each submodule root folder and do the normal git pull or execute following command:
+
+    $ git submodule foreach git pull
+
 ## Getting Started
 
 After installation, you will need to configure the config.toml file, change pictures, and write your pages.
@@ -32,6 +46,9 @@ To create a new page, run the following command inside your Hugo sites:
     $ hugo new your-page.md
 
 Change `your-page` to what you want to name the file. There are three variables that you can change: `title`, `weight`, and `draft`. Weight is set to 0 by default, so be sure to change it.
+
+As default, the title of the page will be taken as menu item. In case you have longer page titles, the menu may get distorted and you can set an additional parameter in the pages front matter to have a shorter menu name.
+Just set `menuname = "<Your Short Name>"` in that page and it will use this optional parameter. 
 
 You can also copy the pages from the exampleSite folder and modify those pages.
 
