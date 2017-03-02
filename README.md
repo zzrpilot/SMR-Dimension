@@ -21,6 +21,10 @@ If you checkout your site from a repository which has this added as a submodule 
     $ git submodule init
     $ git submodule update
 
+In order to update all the existing submodules from their upstreams, you can either go into each submodule root folder and do the normal git pull or execute following command:
+
+    $ git submodule foreach git pull
+
 ## Getting Started
 
 After installation, you will need to configure the config.toml file, change pictures, and write your pages.
