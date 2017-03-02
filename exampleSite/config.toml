@@ -1,7 +1,8 @@
-languageCode = "en-us"
-title = "Dimension"
 baseurl = "http://example.org/"
+title = "Dimension"
 theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 
 [params]
   title = "Dimension"
@@ -29,3 +30,14 @@ theme = "dimension"
   medium = "github"
   icon = "github"
   link = "#"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+title = "Dimension"
+
+[languages.de]
+languageName = "Deutsch"
+weight = 2
+title = "Dimension"

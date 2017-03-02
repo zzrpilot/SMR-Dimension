@@ -2,7 +2,7 @@
 {{ $baseURL := .Site.BaseURL }}
   {{ range sort .Data.Pages }}
   <url>
-    <loc>{{ $baseURL }}#{{ .File.BaseFileName }}</loc>
+    <loc>{{ $baseURL }}#{{ .File.TranslationBaseName }}</loc>
   </url>
   {{ end }}
 </urlset>
