@@ -9,7 +9,7 @@ Dimension is a single page and responsive site template. It is a port of [HTML5 
 Run the following commands inside your Hugo site folder:
 
     $ cd themes
-    $ git clone https://github.com/sethmacleod/dimension.git
+    $ git clone https://github.com/sethmacleod/dimension.git themes/dimension
 
 Alternatively use git submodules in order to have a way to easily update the theme from the source in case you have your site in git as well.
 For this run the following commands inside your Hugo site folder:
