@@ -60,6 +60,18 @@ You will need to use an external service for the contact form since static sites
 
 For the `config.toml`, follow the template at the bottom of `config.toml` in your exampleSite folder. German is used as the example language, but you can use any language you want. For content files, it is suggested to use the same base file name for each translate page. For example, for `about.md`, use `about.de.md` for the German page. 
 
+## Google Analytics
+To include Google Analytics, you can follow the standard Hugo way and just add `googleAnalytics = "UA-123-45"` to the `config.toml` as described on [Analytics in Hugo](https://gohugo.io/extras/analytics/). 
+
+## CSS Overrides
+If you need to override some CSS properties or add new ones which will be on top of the existing template CSS, you can create the file `static/css/project.css` and it will be loaded after the themes own CSS files.
+
+Changing the background color for the content modals would need the following addition to the `project.css`
+
+    #main article {
+			background-color: rgba(89, 64, 50, 0.85);
+		} 
+
 ## License
 
 This theme is released under the CC BY 3.0 license. For more information, read the [License](https://github.com/sethmacleod/dimension/blob/master/LICENSE.md).
