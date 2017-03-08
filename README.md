@@ -55,6 +55,10 @@ You can also copy the pages from the exampleSite folder and modify those pages.
 
 You will need to use an external service for the contact form since static sites cannot handle forms on their own. One such service is [Formspree](https://formspree.io/). Formspree has a free tier. Check out the `formspree.md` page in the exampleSite folder for a template.
 
+### Tabs as Links
+
+You may want a tab to link to external content. Create your page, and set a variable `link` in the front matter to your desired output. For example: `link = "http://www.example.org"`. Note: this method could be used to link to internal pages, but the theme does not support this out of the box.
+
 ## Multilingual Support
 
 For the `config.toml`, follow the template at the bottom of `config.toml` in your exampleSite folder. German is used as the example language, but you can use any language you want. For content files, it is suggested to use the same base file name for each translate page. For example, for `about.md`, use `about.de.md` for the German page. 
