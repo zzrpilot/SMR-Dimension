@@ -8,13 +8,12 @@ Dimension is a single page and responsive site template. It is a port of [HTML5 
 
 Run the following commands inside your Hugo site folder:
 
-    $ cd themes
-    $ git clone https://github.com/sethmacleod/dimension.git
+    $ git clone https://github.com/sethmacleod/dimension.git themes/dimension
 
 Alternatively use git submodules in order to have a way to easily update the theme from the source in case you have your site in git as well.
 For this run the following commands inside your Hugo site folder:
 
-    $ git submodule add https://github.com/sethmacleod/dimension.git
+    $ git submodule add https://github.com/sethmacleod/dimension.git themes/dimension
 
 If you checkout your site from a repository which has this added as a submodule (e.g. if you are using CI to deploy), execute following commands or put them into a initgit.sh file in your repository which can be executed by your CI:
 
@@ -59,6 +58,18 @@ You will need to use an external service for the contact form since static sites
 ## Multilingual Support
 
 For the `config.toml`, follow the template at the bottom of `config.toml` in your exampleSite folder. German is used as the example language, but you can use any language you want. For content files, it is suggested to use the same base file name for each translate page. For example, for `about.md`, use `about.de.md` for the German page. 
+
+## Google Analytics
+To include Google Analytics, you can follow the standard Hugo way and just add `googleAnalytics = "UA-123-45"` to the `config.toml` as described on [Analytics in Hugo](https://gohugo.io/extras/analytics/). 
+
+## CSS Overrides
+If you need to override some CSS properties or add new ones which will be on top of the existing template CSS, you can create the file `static/css/project.css` and it will be loaded after the themes own CSS files.
+
+Changing the background color for the content modals would need the following addition to the `project.css`
+
+    #main article {
+			background-color: rgba(89, 64, 50, 0.85);
+		} 
 
 ## License
 
