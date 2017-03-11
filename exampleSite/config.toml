@@ -3,6 +3,8 @@ title = "Dimension"
 theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
 
 [params]
   title = "Dimension"
