@@ -6,7 +6,12 @@
         <!-- Header -->
           <header id="header">
             <div class="logo">
-              <span class="icon {{ .Site.Params.logo }}"></span>
+              {{ with .Site.Params.logoimage }}
+              <img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;">
+            {{ end }}
+            {{ with .Site.Params.logo }}            
+              <span class="icon {{ . }}"></span>
+            {{ end }}
             </div>
             <div class="content">
               <div class="inner">
