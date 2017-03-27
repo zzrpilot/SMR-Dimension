@@ -37,7 +37,7 @@ To use an image as logo, remove the `logo = "fa-diamond"` line and replace it wi
 
 ### Changing pictures
 
-Create an `img` folder in the static folder of your site -- **not** the theme's static folder. Add pictures to `/static/img` as needed. If you want to change the background image, the replacement image should be named `bg.jpg`.
+Create an `images` folder in the static folder of your site -- **not** the theme's static folder. Add pictures to `/static/images` as needed. If you want to change the background image, the replacement image should be named `bg.jpg`.
 
 ### Writing your pages
 
