@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  
+  <url>
+    <loc>http://localhost/de/#intro</loc>
+    <lastmod>2017-03-02T10:54:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#work</loc>
+    <lastmod>2017-03-02T11:59:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#about</loc>
+    <lastmod>2017-03-02T11:59:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#contact</loc>
+    <lastmod>2017-03-02T11:59:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#</loc>
+    <lastmod>2017-03-02T10:54:38-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost/de/#</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
