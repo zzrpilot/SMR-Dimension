@@ -4,7 +4,9 @@ weight = 10
 draft = false
 +++
 
-{{< figure class="image main" src="images/pic01.jpg" >}}
+{{< figure class="image main" src="images/Credit_A_Duro_ESO.jpg" >}}
+Picture credit A Duro. ESO
+
 We are an ecologicaly sensative mining company that tries to always use renewable energy where ever possible.  
 
 Mining for rare earth elements need not be a disaster for the environment and we use methods that help to reduce polution of the local eco systems and reduce the carbon footprint of the elements recovered.
