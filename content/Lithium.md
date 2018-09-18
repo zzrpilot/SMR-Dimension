@@ -1,8 +1,7 @@
 +++
 title = "Lithium"
 weight = 60
-menuname = "Lithium"
-draft = true
+draft = false
 +++
 
 {{< figure class="image main" src="images/Lithium-NEW-640x480.jpg" >}}
