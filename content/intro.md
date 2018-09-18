@@ -5,6 +5,10 @@ draft = false
 +++
 
 {{< figure class="image main" src="images/pic01.jpg" >}}
-We are an ecologicaly sensative mining company that tries to always use renewable energy where ever possible.  By the way, check out my [awesome work](#work).
+We are an ecologicaly sensative mining company that tries to always use renewable energy where ever possible.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Mining for rare earth elements need not be a disaster for the environment and we use methods that help to reduce polution of the local eco systems and reduce the carbon footprint of the elements recovered.
+
+Construction is sympathetic as we can be to the environmnet and we are commited to a 100% restoration of the land after we complete extraction so when we are gone future generations will be able to enjoy the land just as it was before we arrived.
+
+
