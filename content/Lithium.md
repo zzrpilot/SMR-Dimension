@@ -4,7 +4,7 @@ weight = 60
 draft = false
 +++
 
-{{< figure class="image main" src="images/Lithium-NEW-640x350.jpg" >}}
+{{< figure class="image main" src="images/Lithium-NEW-640x350.png" >}}
 
 Lithium is one of the fastest growing growth markets in the world.
 Lithium has become one of the most important metals around, since it is the major element found in rechargeable batteries. It is used as coolant in nuclear reactors, it is used in air conditioners, medicines, glass, and in the manufacture of aircraft, and of course now cars.
