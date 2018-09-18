@@ -20,4 +20,4 @@ For more information about Lithium take a look at this website
 
 
 
-{{< http://www.visualcapitalist.com/lithium-fuel-green-revolution/ >}}
+[Lithium Fuel Green Revolution](http://www.visualcapitalist.com/lithium-fuel-green-revolution/)
