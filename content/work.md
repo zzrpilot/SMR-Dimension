@@ -6,6 +6,9 @@ draft = false
 
 {{< figure class="image main" src="images/coming-soon-placeholder.jpg" >}}
 
+
+{{< figure class="image main" src="images/SMR_token_18_160.jpg" >}}
+
 We are making investing in the Lithium future possible for everyone, not just the select few, not just those already more than wealthy ...
 
 
