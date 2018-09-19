@@ -13,7 +13,6 @@ The untapped and undervalued Natural Capital Asset class is estimated to be wort
 
 We are different in that we are ethically driven, and care about polluting our environment. We invest heavily in renewable energy, be it Solar, Wind, Hydro, or Wave; if we can use it, we will. It costs more initially, but the benefits long term far outweigh the costs.
 
-< img src="images/DSC_0727_s.jpg" />
-
+{{< figure class="image main" src="images/DSC_0727_s.jpg" >}}
 
 

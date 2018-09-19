@@ -9,7 +9,7 @@ disableKinds=["RSS"]
 [params]
   description = '<!--[-->Ethical   Ecologically Responsible   Efficient    Innovative <!--]-->'
   logo = "fa-diamond"
-  copyright = "Untitled"
+  copyright = "SMR"
 
 [[params.social]]
   medium = "twitter"
