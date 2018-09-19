@@ -1,5 +1,5 @@
 baseurl = "http://localhost"
-title = "Secure Mining Resources"
+title = "Secured Mining Resources"
 theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = '<!--[-->Ethical   Ecologically Responsible   Efficient    Innovative <!--]-->'
+  description = '<!--[-->Ethical :  Ecologically Responsible :  Efficient  :  Innovative <!--]-->'
   logo = "fa-diamond"
   copyright = "SMR"
 
