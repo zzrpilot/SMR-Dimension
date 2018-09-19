@@ -4,8 +4,9 @@ weight = 50
 draft = false
 +++
 
-{{< figure class="image main" src="/images/pic02.jpg" >}}
+{{< figure class="image main" src="/images/website-construction-graphic-4" >}}
 
-Here is where I will put something about investing in the Lithium future  ...
+We are making investing in the Lithium future possible for everyone, not just the select few, not just those already more than wealthy ...
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.
+
+More will follow soon ...
