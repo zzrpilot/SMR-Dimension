@@ -1,6 +1,6 @@
 +++
 title = "About us"
-weight = 30
+weight = 20
 draft = false
 +++
 
