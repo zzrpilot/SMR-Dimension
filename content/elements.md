@@ -1,6 +1,6 @@
 +++
 title = "Location"
-weight = 50
+weight = 30
 draft = true
 +++
 
