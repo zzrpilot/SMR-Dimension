@@ -1,6 +1,6 @@
 +++
 title = "Lithium"
-weight = 60
+weight = 40
 draft = false
 +++
 
@@ -12,7 +12,7 @@ Demand for lithium is growing fast, and the new range of super batteries being d
 In the modern age, lithium has become an element of great value and importance to the general populace. The production process is straightforward, and when it is mined, other minerals such as magnesium, calcium, potassium, and sodium are also obtained and, of course, not wasted.
 On our extraction sites we also have large concentrations of high grade, if not medical grade, sulphur, and this is another mineral that is growing in demand.
 
-< src="images/solar01.jpg" >
+! (solar01.jpg)
 
 We use a solar-powered lithium extraction system that is highly efficient; we also run a close loop system so toxic waste is not just dumped into the environment. we reuse everything, and remove toxins as we go, so when we are done it will be easier to restore the land.
 
