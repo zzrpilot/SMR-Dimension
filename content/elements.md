@@ -9,7 +9,7 @@ draft = true
 <code>{&zwnj;{< socialLinks >}}</code> will get into {{< socialLinks >}} configured in <code>config.toml</code>.
 
 <code>{&zwnj;{< gmaps  pb="\<sharecode\>" >}}</code> will get a google map 
-{{< gmaps pb="!1m18!1m12!1m3!1d86456.59681285016!2d8.466675323953403!3d47.377433669132884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b9749bea219%3A0xe66e8df1e71fdc03!2zWsO8cmljaA!5e0!3m2!1sde!2sch!4v1488248947910" >}}
+{{< gmaps pb=<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1892943.639773143!2d-70.54597570166926!3d-22.081875883305727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac59022be4d1d7%3A0x54d0baf7b98821c0!2sMaria+Elena%2C+Antofagasta+Region%2C+Chile!5e0!3m2!1sen!2suk!4v1537370819274"  >}}
 
 To get the pb parameter value, search the desired place on google maps and click the share button and copy/paste the pb parameter out of the iframe code.
 
